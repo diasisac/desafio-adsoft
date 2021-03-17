@@ -22,7 +22,7 @@ class UserController {
         });
       })
       .catch(function (error) {
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({'error':true,'msg':'Internal Server Error'});
       });
     }catch (err) {
       return res.status(400).json({ error: err.message });

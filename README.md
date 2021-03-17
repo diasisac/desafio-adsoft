@@ -4,9 +4,9 @@ Regras para executar aplicação
 
 2 - Executar os comandos: yarn init e npm install
 
-3 - Realizar configurações do banco conforme imagem abaixo:
+3 - Realizar configurações do banco conforme sua base local, segue abaixo o arquivo que deve ser alterado:
 
-  ![image](https://user-images.githubusercontent.com/40832333/111508908-f5f85180-872a-11eb-93c3-ac29931f6c61.png)
+  https://github.com/diasisac/desafio-adsoft/blob/master/backend/src/config/database.js
 
 4 - baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
 

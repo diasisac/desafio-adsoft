@@ -11,13 +11,18 @@ Regras para executar o backend da aplicação.
   https://github.com/diasisac/desafio-adsoft/blob/master/backend/src/config/database.js
 
 5 - Baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
+    
+    Segue o link abaixo para download
   
   https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/dump
+  
 
   ![image](https://user-images.githubusercontent.com/40832333/111523983-a7eb4a00-873a-11eb-8cbe-48f383e49587.png)
 
 
 6 - Importar json de requests no insomnia.
+   
+   Segue o link abaixo para download
   
   https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/requests
   

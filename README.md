@@ -2,9 +2,7 @@ Regras para executar aplicação
 
 1 - Realizar clone do projeto.
 
-2 - executar os comandos abaixo:
-yarn init
-npm install
+2 - executar os comandos:yarn init e npm install
 
 3 - criar um database chamado desafio_adsoft.
 

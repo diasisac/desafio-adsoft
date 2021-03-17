@@ -41,7 +41,7 @@ class UserController {
         if(users!='')
         res.status(200).json({'error':false,'result': users});
         else
-        res.status(404).json({'error':true,'msg': "Usuário não encontrado"});
+        res.status(400).json({'error':true,'msg': "Usuário não encontrado"});
       });
     } catch (err) {
       return res.status(400).json({ error: err.message });
@@ -83,7 +83,7 @@ class UserController {
             res.status(200).json({'error':false,'msg': "Alteração realizada com sucesso!"});
           });
       }else{
-        res.status(404).json({'error':true,'msg': "Usuário não encontrado"});
+        res.status(400).json({'error':true,'msg': "Usuário não encontrado"});
       }
     });
     } catch (err) {
@@ -110,7 +110,7 @@ class UserController {
                 res.status(200).json({'error':false,'msg': "Exclusão realizada com sucesso!"});
               });   
         }else{
-          res.status(404).json({'error':true,'msg': "Usuário não encontrado"});
+          res.status(400).json({'error':true,'msg': "Usuário não encontrado"});
         }
       });
     } catch (err) {

@@ -11,5 +11,9 @@ Regras para executar o backend da aplicação.
   https://github.com/diasisac/desafio-adsoft/blob/master/backend/src/config/database.js
 
 5 - Baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
+  
+  https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/dump
 
 6 - Importar json de requests do usuário na raiz do projeto em docs/requets
+  
+  https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/requests

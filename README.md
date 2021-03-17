@@ -2,9 +2,11 @@ Regras para executar aplicação
 
 1 - Realizar clone do projeto.
 
-2 - executar os comandos:yarn init e npm install
+2 - Executar os comandos: yarn init e npm install
 
-3 - criar um database chamado desafio_adsoft.
+3 - Realizar configurações do banco
+
+![image](https://user-images.githubusercontent.com/40832333/111508908-f5f85180-872a-11eb-93c3-ac29931f6c61.png)
 
 4 - baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
 

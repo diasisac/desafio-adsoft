@@ -7,7 +7,8 @@ Requisitos necessários antes de rodar o projeto.
 3 - npm
 
 
-Regras para executar aplicação
+
+Regras para executar aplicação.
 
 1 - Realizar clone do projeto.
 

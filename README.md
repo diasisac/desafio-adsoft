@@ -1,10 +1,10 @@
-Regras para executar aplicação.
+Regras para executar o backend da aplicação.
 
 1 - Realizar clone do projeto.
 
-2 - Necessário ter instalado o yarn, npm, postegres, node
+2 - Necessário ter instalado o yarn, npm, postegres e node
 
-3 - Executar os comandos: yarn init e npm install
+3 - Via terminar, entrar na pasta backend e executar os comandos: yarn init e npm install
 
 4 - Realizar configurações do banco conforme sua base local, segue abaixo o arquivo que deve ser alterado:
 

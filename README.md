@@ -1,9 +1,8 @@
 Requisitos necessários antes de rodar o projeto.
 
-yarn 
-npm
-node
-postgres
+1 - node
+2 - yarn
+3 - npm
 
 
 Regras para executar aplicação

@@ -1,7 +1,9 @@
 Requisitos necessários antes de rodar o projeto.
 
 1 - node
+
 2 - yarn
+
 3 - npm
 
 

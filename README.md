@@ -8,6 +8,6 @@ Regras para executar aplicação
 
   https://github.com/diasisac/desafio-adsoft/blob/master/backend/src/config/database.js
 
-4 - baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
+4 - Baixar estrutura da tabela usuário na raiz do projeto em docs/dump da estrutura do banco e executar no database referenciado acima.
 
-5 - importar json de requests do usuário na raiz do projeto em docs/requets
+5 - Importar json de requests do usuário na raiz do projeto em docs/requets

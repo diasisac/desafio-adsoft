@@ -1,18 +1,8 @@
-Requisitos necessários antes de rodar o projeto.
-
-1 - node
-
-2 - yarn
-
-3 - npm
-
-
-
 Regras para executar aplicação.
 
 1 - Realizar clone do projeto.
 
-2 - Necessário instalar o yarn e npm
+2 - Necessário ter instalado o yarn, npm, postegres, node
 
 3 - Executar os comandos: yarn init e npm install
 

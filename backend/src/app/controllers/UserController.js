@@ -51,6 +51,7 @@ class UserController {
   async store(req, res) {
     try {
       req.body.salt = Math.random();
+      req.body.datacriacao = (new Date()).toISOString().split('T')[0];
       const user = await User.create(req.body);
       res.status(200).json({'error':false,'msg': "Usuário criado com sucesso!"});
     } catch (err) {

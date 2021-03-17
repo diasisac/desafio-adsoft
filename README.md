@@ -14,7 +14,7 @@ Regras para executar o backend da aplicação.
   
   https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/dump
 
-  ![image](https://user-images.githubusercontent.com/40832333/111523862-825e4080-873a-11eb-92ec-1fc96082a9d2.png)
+  ![image](https://user-images.githubusercontent.com/40832333/111523983-a7eb4a00-873a-11eb-8cbe-48f383e49587.png)
 
 
 6 - Importar json de requests no insomnia.

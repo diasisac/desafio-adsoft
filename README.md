@@ -5,9 +5,10 @@ Regras para executar o backend da aplicação.
 2 - Realizar clone do projeto.
 
 3 - 
-*Via terminar, entrar na pasta backend e executar os comandos: yarn init e npm install
 
-*Via terminar, entrar na pasta frontend e executar os comandos: npm install
+*Via terminar, entrar na pasta backend com comando cd backend e executar os comandos: yarn init e npm install
+
+*Via terminar, entrar na pasta frontend com comando cd frontend e executar os comandos: npm install
 
 
  ![image](https://user-images.githubusercontent.com/40832333/111672278-90729680-87f8-11eb-8d5c-88d3be7de7f1.png)

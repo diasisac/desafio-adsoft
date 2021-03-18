@@ -4,14 +4,7 @@ Regras para executar o backend da aplicação.
 
 2 - Realizar clone do projeto.
 
-3 - 
 
-*Via terminar, entrar na pasta backend com comando cd backend e executar os comandos: yarn init e npm install
-
-*Via terminar, entrar na pasta frontend com comando cd frontend e executar os comandos: npm install
-
-
- ![image](https://user-images.githubusercontent.com/40832333/111672278-90729680-87f8-11eb-8d5c-88d3be7de7f1.png)
 
 
 4 - Com projeto aberto preferencialmente no VSCODE pode usar o próprio terminal da IDE pode rodar o projeto usando comando: yarn dev
@@ -40,3 +33,12 @@ Regras para executar o backend da aplicação.
   https://github.com/diasisac/desafio-adsoft/tree/master/backend/docs/requests
   
   ![image](https://user-images.githubusercontent.com/40832333/111523645-475c0d00-873a-11eb-83a7-0a611bb663c0.png)
+  
+   
+
+*Via terminar, entrar na pasta backend com comando cd backend e executar os comandos: yarn init e npm install
+
+*Via terminar, entrar na pasta frontend com comando cd frontend e executar os comandos: npm install
+
+
+ ![image](https://user-images.githubusercontent.com/40832333/111672278-90729680-87f8-11eb-8d5c-88d3be7de7f1.png)

@@ -44,7 +44,7 @@ Regras para executar o backend da aplicação.
  
     *em seguida para startar o frontend você vai na aba e digita npm start
  
-  caso tudo esteja funcionando vai aparecer a seguinte tela abaixo
+     caso tudo esteja funcionando vai aparecer a seguinte tela abaixo
 
   ![image](https://user-images.githubusercontent.com/40832333/111673573-ded46500-87f9-11eb-8932-e35b5edf9c28.png)
 

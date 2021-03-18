@@ -29,7 +29,7 @@ Regras para executar o backend da aplicação.
   
    
 
-6 - 
+6 - Seguir os passos abaixo para rodar projeto.
 
 *Via terminar, entrar na pasta backend com comando cd backend e executar os comandos: yarn init e npm install
 
@@ -37,3 +37,14 @@ Regras para executar o backend da aplicação.
 
 
  ![image](https://user-images.githubusercontent.com/40832333/111672278-90729680-87f8-11eb-8d5c-88d3be7de7f1.png)
+ 
+ *em seguida para startar o backend você vai na aba e digita yarn dev
+ 
+ ![image](https://user-images.githubusercontent.com/40832333/111673043-53f36a80-87f9-11eb-8fc5-126221b29884.png)
+ 
+ *em seguida para startar o frontend você vai na aba e digita npm start
+ 
+  caso tudo esteja funcionando vai aparecer a seguinte tela abaixo
+
+ ![image](https://user-images.githubusercontent.com/40832333/111673573-ded46500-87f9-11eb-8932-e35b5edf9c28.png)
+

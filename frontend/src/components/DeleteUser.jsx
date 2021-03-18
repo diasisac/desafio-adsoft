@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const PostDetails = () => {
+
+const DeleteUser = (props) => {
     const { id } = useParams();
     const [users, setUser] = useState();
 
@@ -13,21 +14,26 @@ const PostDetails = () => {
         })
     }, [id]);
 
-    
+    const handleRemoveUsuario = () => {
+        axios.delete(`http://localhost:3333/users/${id}`).then(result => {
+            props.history.push("/");
+        })
+    }
+
     return (
         <div>
-            <h1>{users?.nome}<br /><small>por {users?.sobrenome}</small></h1>
-            <p>{users?.sobrenome}</p>
+            <h2>Deseja excluir o usurio <strong>{users?.nome}</strong>?</h2>
+            <br />
             <div className="btn-group">
-                <Link to={`/edit/${users?.id}`} className="btn btn-primary">
-                    Editar <i className="fa fa-edit"></i>
+                <Link to="/" className="btn btn-primary">
+                    <i className="fa fa-arrow-left"></i> Cancelar
                 </Link>
-                <Link to={`/delete/${users?.id}`} className="btn btn-danger">
+                <button onClick={handleRemoveUsuario} className="btn btn-danger">
                     Excluir <i className="fa fa-trash"></i>
-                </Link>
+                </button>
             </div>
         </div>
     );
 }
 
-export default PostDetails;
+export default DeleteUser;

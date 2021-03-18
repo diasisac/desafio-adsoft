@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const DeletePost = (props) => {
+
+const DeleteUser = (props) => {
     const { id } = useParams();
     const [users, setUser] = useState();
 
@@ -35,4 +36,4 @@ const DeletePost = (props) => {
     );
 }
 
-export default DeletePost;
+export default DeleteUser;

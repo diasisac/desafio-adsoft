@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const PostList = () => {
+const UserList = () => {
     const [users, setUser] = useState([]);
     const [paginas, setPaginas] = useState();
     const [paginaAtual, setPaginaAtual] = useState();
@@ -101,4 +101,5 @@ const PostList = () => {
     );
 }
 
-export default PostList;
+
+export default UserList;

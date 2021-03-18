@@ -1,8 +1,11 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
+import 'react-notifications/lib/notifications.css';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
 
-const CreatePost = (props) => {
+
+const CreateUser = (props) => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
         axios.post('http://localhost:3333/users', data).then(result => {
@@ -10,6 +13,7 @@ const CreatePost = (props) => {
         })
     };
 
+    
     return (
         <div className="card py-4">
             <div className="card-body">
@@ -27,6 +31,11 @@ const CreatePost = (props) => {
                             <small className="form-text text-danger">{errors.sobrenome && 'Sobrenome inválido'}</small>
                         </div>
                         <div className="form-group">
+                            <label>Username</label>
+                            <input type="text" className="form-control" name="username" autoComplete="false" ref={register({ required: true })} />
+                            <small className="form-text text-danger">{errors.username && 'Username inválido'}</small>
+                        </div>
+                        <div className="form-group">
                             <label>Senha</label>
                             <input type="password" className="form-control" name="senha" ref={register({ required: true })} />
                             <small className="form-text text-danger">{errors.senha && 'Senha inválido'}</small>
@@ -39,4 +48,4 @@ const CreatePost = (props) => {
     );
 }
 
-export default CreatePost;
+export default CreateUser;

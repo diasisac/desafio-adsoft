@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 
-const EditPost = (props) => {
+
+const EditUser = (props) => {
     const { id } = useParams();
     const { register, handleSubmit, errors, setValue } = useForm();
     
@@ -14,6 +15,7 @@ const EditPost = (props) => {
             setValue("id", result.data.result[0].id);
             setValue("nome", result.data.result[0].nome);
             setValue("sobrenome", result.data.result[0].sobrenome);
+            setValue("username", result.data.result[0].username);
             setValue("senha", result.data.result[0].senha);
         })
 
@@ -46,6 +48,11 @@ const EditPost = (props) => {
                             <small className="form-text text-danger">{errors.sobrenome && 'Sobrenome inválido'}</small>
                         </div>
                         <div className="form-group">
+                            <label>Username</label>
+                            <input type="text" className="form-control" name="username"  ref={register({ required: true })} />
+                            <small className="form-text text-danger">{errors.username && 'Username inválido'}</small>
+                        </div>
+                        <div className="form-group">
                             <label>Senha</label>
                             <input type="text" className="form-control" name="senha"  ref={register({ required: true })} />
                             <small className="form-text text-danger">{errors.senha && 'Senha inválido'}</small>
@@ -63,4 +70,4 @@ const EditPost = (props) => {
     );
 }
 
-export default EditPost;
+export default EditUser;

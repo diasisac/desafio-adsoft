@@ -4,7 +4,9 @@ Regras para executar o backend da aplicação.
 
 2 - Realizar clone do projeto.
 
-3 - Via terminar, entrar na pasta backend e executar os comandos: yarn init e npm install
+3 - 
+*Via terminar, entrar na pasta backend e executar os comandos: yarn init e npm install
+*Via terminar, entrar na pasta frontend e executar os comandos: npm install
 
 4 - Com projeto aberto preferencialmente no VSCODE pode usar o próprio terminal da IDE pode rodar o projeto usando comando: yarn dev
 
